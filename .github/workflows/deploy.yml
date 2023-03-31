@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+env:
+  PUBLISH_BRANCH: gh-pages
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
